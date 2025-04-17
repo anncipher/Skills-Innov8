@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills-Innov8</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "agility-primary": '#193894',
+                        "agility-secondary": '#252B42',
+                    },
+                    fontFamily: {
+                        roboto: ['Roboto', 'sans-serif'],
+                        montserrat: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav class="flex items-center px-6 py-4 shadow-md font-roboto">
+        <img src="assets/images/logo.svg" />
+        <div class="text-xl font-bold text-agility-secondary font-montserrat font-[700] ml-2">Skills-Innov8</div>
+        <div class="space-x-4 hidden md:flex mx-auto w-[366px]">
+            <a href="/" class="text-agility-primary hover:text-blue-600">Home</a>
+            <a href="about.html" class="text-agility-primary hover:text-blue-600">About</a>
+            <a href="service.html" class="text-agility-primary hover:text-blue-600">Service</a>
+            <a href="contact.html" class="text-agility-primary hover:text-blue-600">Contact</a>
+        </div>
+        <button class="bg-agility-primary text-white mr-4 px-4 py-2 rounded-lg hidden md:block rounded-[5px] w-[120px]">
+            Sign Up
+        </button>
+        <button class="bg-agility-primary text-white px-4 py-2 rounded-lg hidden md:block rounded-[5px] w-[120px]">
+            Log In
+        </button>
+    </nav>
+</body>
+
+</html>
