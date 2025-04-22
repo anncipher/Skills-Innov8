@@ -34,8 +34,8 @@
 
 <body class="bg-white w-full">
     <!-- Navbar -->
-    <nav class="px-6 py-4 shadow-md font-roboto">
-        <div class="flex items-center justify-between max-w-screen-lg mx-auto w-full">
+    <nav class="px-6 py-6 shadow-md font-roboto sticky top-0 bg-white z-50">
+        <div class="flex items-center justify-between gap-12 max-w-screen-lg mx-auto w-full">
             <!-- Group 6 Logo -->
             <div class="flex items-center">
                 <img src="assets/images/logo.svg" alt="Logo" />
@@ -45,21 +45,21 @@
             </div>
 
             <!-- Desktop Menu -->
-            <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px]">
-                <a href="/" class="text-agility-primary hover:text-blue-600">Home</a>
+            <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px] text-lg">
+                <a href="#" class="text-agility-primary hover:text-blue-600">Home</a>
                 <a href="about.html" class="text-agility-primary hover:text-blue-600">About</a>
                 <a href="service.html" class="text-agility-primary hover:text-blue-600">Service</a>
                 <a href="contact.html" class="text-agility-primary hover:text-blue-600">Contact</a>
             </div>
 
             <!-- Desktop Buttons -->
-            <div class="hidden md:flex space-x-2">
-                <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-[120px]">
-                    Sign Up
-                </button>
-                <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-[120px]">
-                    Log In
-                </button>
+           <div class="hidden md:flex space-x-2">
+                <a href="./authentication page/splash.html" class="bg-agility-primary text-lg text-white px-4 py-2 rounded-[5px] w-[120px] text-center">
+                 Sign Up
+                </a>
+                <a href="./authentication page/log in.html" class="bg-agility-primary text-lg text-white px-4 py-2 rounded-[5px] w-[120px] text-center">
+                 Log In
+                </a>
             </div>
 
             <!-- Mobile Menu -->
@@ -75,12 +75,12 @@
 
         <!-- Mobile Menu (Hidden by default) -->
         <div id="mobile-menu" class="md:hidden hidden flex-col items-start px-2 mt-2 space-y-2">
-            <a href="/" class="block text-agility-primary hover:text-blue-600">Home</a>
+            <a href="#" class="block text-agility-primary hover:text-blue-600">Home</a>
             <a href="about.html" class="block text-agility-primary hover:text-blue-600">About</a>
             <a href="service.html" class="block text-agility-primary hover:text-blue-600">Service</a>
             <a href="contact.html" class="block text-agility-primary hover:text-blue-600">Contact</a>
-            <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full">Sign Up</button>
-            <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full">Log In</button>
+            <a href="./authentication page/splash.html" class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full text-center">Sign Up</a>
+            <a href="./authentication page/log in.html" class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full text-center">Log In</a>
         </div>
     </nav>
 
@@ -88,8 +88,8 @@
         style="background: conic-gradient(from -45.28deg at 61.07% 61.25%, #BBD2FF 0deg, #FFFFFF 54.37deg, #F0F5FF 121.29deg, #BBD2FF 360deg);">
         <div class="max-w-screen-lg mx-auto flex flex-col-reverse sm:flex-row w-full">
             <div class="grow mt-[400px] sm:mt-0">
-                <h1 class="text-agility-primary font-bold font-montserrat">Skills-Innov8</h1>
-                <h1 class="text-4xl md:text-5xl font-bold mb-4">Manage Your <br> SIWES With Ease</h1>
+                <h1 class="leading-[24px] text-agility-primary font-bold font-montserrat md:mb-5">Skills-Innov8</h1>
+                <h1 class="text-4xl md:text-6xl font-bold text-[#100F0F] leading-[]">Manage Your SIWES With Ease</h1>
                 <p class="text-gray-700">Connect with Institutions and Companies in one simple platform</p>
                 <div class="flex pt-2 justify-between w-full max-w-[440px]">
                     <button
@@ -371,15 +371,15 @@
 
             <!-- Footer Columns -->
             <div>
-                <h4 class="font-semibold mb-3 font-bold">Company Info</h4>
+                <h4 class="mb-3 font-bold">Company Info</h4>
                 <ul class="space-y-2 text-gray-600 font-semibold">
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="#">Carrier</a></li>
                 </ul>
             </div>
 
             <div>
-                <h4 class="font-semibold mb-3 font-bold">Follow us</h4>
+                <h4 class="mb-3 font-bold">Follow us</h4>
                 <ul class="space-y-2 text-gray-600 font-semibold">
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Instagram</a></li>
@@ -389,17 +389,17 @@
             </div>
 
             <div>
-                <h4 class="font-semibold mb-3 font-bold">Quick Links</h4>
+                <h4 class="mb-3 font-bold">Quick Links</h4>
                 <ul class="space-y-2 text-gray-600 font-semibold">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
 
             <div>
-                <h4 class="font-semibold mb-3 font-bold">Get In Touch</h4>
+                <h4 class="mb-3 font-bold">Get In Touch</h4>
                 <ul class="space-y-2 text-gray-600 font-semibold">
                     <li>Skillsinnov8@gmail.com</li>
                     <li><a href="#">Download our App</a></li>
