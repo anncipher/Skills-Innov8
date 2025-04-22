@@ -31,8 +31,8 @@
 </head>
 <body class="bg-white w-full">
    <!-- Navbar -->
-   <nav class="px-6 py-4 shadow-md font-roboto">
-    <div class="flex items-center justify-between max-w-screen-lg mx-auto w-full">
+   <nav class="px-6 py-6 shadow-md font-roboto sticky top-0 bg-white z-50">
+    <div class="flex items-center justify-between gap-12 max-w-screen-lg mx-auto w-full">
         <!-- Group 6 Logo -->
         <div class="flex items-center">
             <img src="assets/images/logo.svg" alt="Logo" />
@@ -42,21 +42,21 @@
         </div>
 
         <!-- Desktop Menu -->
-        <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px]">
-            <a href="/" class="text-agility-primary hover:text-blue-600">Home</a>
+        <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px] text-lg">
+            <a href="#" class="text-agility-primary hover:text-blue-600">Home</a>
             <a href="about.html" class="text-agility-primary hover:text-blue-600">About</a>
             <a href="service.html" class="text-agility-primary hover:text-blue-600">Service</a>
             <a href="contact.html" class="text-agility-primary hover:text-blue-600">Contact</a>
         </div>
 
         <!-- Desktop Buttons -->
-        <div class="hidden md:flex space-x-2">
-            <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-[120px]">
-                Sign Up
-            </button>
-            <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-[120px]">
-                Log In
-            </button>
+       <div class="hidden md:flex space-x-2">
+            <a href="./authentication page/splash.html" class="bg-agility-primary text-lg text-white px-4 py-2 rounded-[5px] w-[120px] text-center">
+             Sign Up
+            </a>
+            <a href="./authentication page/log in.html" class="bg-agility-primary text-lg text-white px-4 py-2 rounded-[5px] w-[120px] text-center">
+             Log In
+            </a>
         </div>
 
         <!-- Mobile Menu -->
@@ -72,14 +72,15 @@
 
     <!-- Mobile Menu (Hidden by default) -->
     <div id="mobile-menu" class="md:hidden hidden flex-col items-start px-2 mt-2 space-y-2">
-        <a href="/" class="block text-agility-primary hover:text-blue-600">Home</a>
+        <a href="#" class="block text-agility-primary hover:text-blue-600">Home</a>
         <a href="about.html" class="block text-agility-primary hover:text-blue-600">About</a>
         <a href="service.html" class="block text-agility-primary hover:text-blue-600">Service</a>
         <a href="contact.html" class="block text-agility-primary hover:text-blue-600">Contact</a>
-        <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full">Sign Up</button>
-        <button class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full">Log In</button>
+        <a href="./authentication page/splash.html" class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full text-center">Sign Up</a>
+        <a href="./authentication page/log in.html" class="bg-agility-primary text-white px-4 py-2 rounded-[5px] w-full text-center">Log In</a>
     </div>
 </nav>
+
     <main>
         <section class="font-Poppins bg-gradient-to-r from-[#BBD2FF] via-[#F0F5FF] to-[#FFFFFF] w-full h-[500px] flex flex-col items-center justify-center gap-4">
             <div class="max-w-5xl mx-auto text-center">
