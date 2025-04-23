@@ -12,22 +12,7 @@
       rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/css/tabler.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.1.1/dist/js/tabler.min.js"></script>
-  <script>
-      tailwind.config = {
-          theme: {
-              extend: {
-                  colors: {
-                      "agility-primary": '#193894',
-                      "agility-secondary": '#252B42',
-                  },
-                  fontFamily: {
-                      roboto: ['Roboto', 'sans-serif'],
-                      montserrat: ['Montserrat', 'sans-serif'],
-                  }
-              }
-          }
-      }
-  </script>
+  <script src="scripts/tailwind.js"></script>
 </head>
 <body class="bg-white w-full">
    <!-- Navbar -->
@@ -42,8 +27,12 @@
         </div>
 
         <!-- Desktop Menu -->
+
+        <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px]">
+            <a href="index.html" class="text-agility-primary hover:text-blue-600">Home</a>
+
         <div class="hidden md:flex items-center space-x-4 mx-auto w-[366px] text-lg">
-            <a href="#" class="text-agility-primary hover:text-blue-600">Home</a>
+            <a href="index.html" class="text-agility-primary hover:text-blue-600">Home
             <a href="about.html" class="text-agility-primary hover:text-blue-600">About</a>
             <a href="service.html" class="text-agility-primary hover:text-blue-600">Service</a>
             <a href="contact.html" class="text-agility-primary hover:text-blue-600">Contact</a>
@@ -72,7 +61,7 @@
 
     <!-- Mobile Menu (Hidden by default) -->
     <div id="mobile-menu" class="md:hidden hidden flex-col items-start px-2 mt-2 space-y-2">
-        <a href="#" class="block text-agility-primary hover:text-blue-600">Home</a>
+        <a href="index.html" class="block text-agility-primary hover:text-blue-600">Home</a>
         <a href="about.html" class="block text-agility-primary hover:text-blue-600">About</a>
         <a href="service.html" class="block text-agility-primary hover:text-blue-600">Service</a>
         <a href="contact.html" class="block text-agility-primary hover:text-blue-600">Contact</a>
